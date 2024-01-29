@@ -1,0 +1,80 @@
+.main-cont {
+  height: calc(100vh - 4.5rem);
+  padding: 4.43rem 5rem 0rem 12rem;
+}
+.main-cont-1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-cont-2 {
+  width: 60rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.main-cont-3 {
+  display: flex;
+}
+.main-cont-3-left {
+  flex: 1;
+}
+.main-cont-3-right {
+  flex: 1;
+}
+.mc-3-l-1 {
+  margin-top: 4.47rem;
+  display: flex;
+  justify-content: space-between;
+  width: 29rem;
+}
+.mc-3-l-1 button {
+  height: 2.75rem;
+  width: 13.8rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+.mc-3-l-2 {
+  border-radius: 0.3rem;
+  width: 29rem;
+  height: 2.75rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mc-3-l-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.63rem;
+}
+.mc-3-l-form input {
+  width: 27.5rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+.mc-3-l-form textarea {
+  font-size: 1rem;
+  width: 27.5rem;
+  height: 7.5rem;
+  resize: none;
+  padding: 0.5rem;
+}
+.form-submit-btn {
+  height: 2.5rem;
+  width: 13.75rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+}
+.form-submit-btn-cover {
+  margin-top: 1rem;
+  width: 27.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
